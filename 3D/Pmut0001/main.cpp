@@ -48,9 +48,8 @@ int main(int argc, char* argv[]) {
   double rbb = atof(argv[11]);
   double rab = atof(argv[12]);
   double rbc = atof(argv[13]);
-  
 
-  //~ for (double dd=0.0000000001;dd<0.00000001; dd=dd*10){
+  //~ for (double dd=0.0000000001 ;dd<0.00000001; dd=dd*10){
     //~ d=dd;
     //~ for (int i = 1; i<=1501;i+=10){
       //~ T = i;

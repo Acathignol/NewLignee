@@ -49,6 +49,44 @@ int main(int argc, char* argv[]) {
   double rab = atof(argv[12]);
   double rbc = atof(argv[13]);
   
+  //~ for(double dd=0.0000005; dd<0.00005;dd=dd*10){
+    //~ d=dd;
+    //~ for (int i = 1; i<=1501;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ }
+  
+  
+  //~ for(double dd=0.00005;dd<0.005;dd=dd*10){
+    //~ d=dd;
+    //~ for (int i = 1; i<=1501;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ }
+  
+  
+  //~ for(double dd=0.005;dd<=0.05;dd=dd*10){
+    //~ d=dd;
+    //~ for (int i = 1; i<=1501;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ } 
+  
   //~ double dd = 0;
   //~ d=dd;        
   //~ for (int i = 1; i<=201;i+=10){
