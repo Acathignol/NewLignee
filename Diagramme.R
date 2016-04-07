@@ -7,25 +7,29 @@ rm(list=ls())
 #TOP : Faire carte avec isoclines
 
 #Pmut=0
-Table<-read.table("/home/acathignol/Lignee/2D/Pmut0/results.txt")
+Table<-read.table("/home/acathignol/Lignee/2D/Pmut0/results.txt", sep = " ") #2D/Pmut0/
 
 par(mfrow=c(1,1))
 ainit<-Table$V1
 T_<-Table$V2
 results<-Table$V3
 
+#install.packages("lattice")
+#install.packages("gplots")
+#library(lattice)
+#library(gplots)
 
-ai<-data.frame(,col2)
-t<-c()
-res<-c()
-for (i in 1:1:1501){
-  for (j in 0:1:50){
-    ai[i][j]=j
-    t[i][j]=i
-    res[i][j]=mean(Table[Table$V1==j & Table$V2==i,]$V3) 
-  }
-}
-plot(res)
+#ai<-c()
+#t<-c()
+#res<-c()
+#for (i in 1:1:1501){
+#  for (j in 0:1:50){
+#    ai[i+j*1501]=j
+#    t[i*j*1501]=i
+#    res[i+j*1501]=mean(Table[Table$V1==j & Table$V2==i,]$V3) 
+#  }
+#}
+#levelplot(results~T_*ainit)
 
 plot(T_,ainit,col=results+2, main="Diagramme de phase ! :)", pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
@@ -71,7 +75,7 @@ ainit<-Table$V1[Table$V3 == 0]
 T_<-Table$V2[Table$V3 == 0]
 results<-Table$V4[Table$V3 == 0]
 
-plot(T_,ainit,col=results+2, main="Diagramme de phase ! :)", pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
+plot(T_,ainit,col=results+2, main="Diagramme de phase ! :)", pch=19, xlim=c(1,250), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
@@ -123,7 +127,7 @@ ainit<-Table$V1[Table$V3 == 0.0000001]
 T_<-Table$V2[Table$V3 == 0.0000001]
 results<-Table$V4[Table$V3 == 0.0000001]
 
-plot(T_,ainit,col=results+2, main="Diagramme de phase ! :)", pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
+plot(T_,ainit,col=results+2, main="Diagramme de phase ! :)", pch=19, xlim=c(100,201),ylim=c(0,50), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
