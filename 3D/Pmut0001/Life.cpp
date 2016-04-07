@@ -178,7 +178,7 @@ void Life::hugeCycle(){//std::string STR){
     if ((i%T_)==0){
       box_->recycle(Ainit_); //Renewing the environment 
     }
-    if ((i%5000)==0){cout<<"iteration "<<i<<endl;}
+    //~ if ((i%5000)==0){cout<<"iteration "<<i<<endl;}
     
     this->killThemAll();
     
@@ -193,5 +193,5 @@ void Life::hugeCycle(){//std::string STR){
   
   ecoli_->writeResult("results.txt", Ainit_ , T_,D_);
   
-  cout<<"Finit ! ;) "<<endl;
+  //~ cout<<"Finit ! ;) "<<endl;
 }

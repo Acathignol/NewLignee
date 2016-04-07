@@ -127,7 +127,7 @@ ainit<-Table$V1[Table$V3 == 0.0000001]
 T_<-Table$V2[Table$V3 == 0.0000001]
 results<-Table$V4[Table$V3 == 0.0000001]
 
-plot(T_,ainit,col=results+2, main="Diagramme de phase ! :)", pch=19, xlim=c(100,201),ylim=c(0,50), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
+plot(T_,ainit,col=results+2, main="Diagramme de phase ! :)", pch=19, xlim=c(1,1501),ylim=c(0,50), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
