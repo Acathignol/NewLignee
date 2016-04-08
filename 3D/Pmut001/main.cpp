@@ -73,22 +73,23 @@ int main(int argc, char* argv[]) {
       //~ }
     //~ } 
   //~ }
-  //~ 
-  //~ 
-  //~ for( dd=0.000001;dd<0.0001;dd=dd*10){
-    //~ d=dd;
-    //~ for (int i = 1; i<=1501;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ }
-  //~ 
-  //~ 
-  //~ for(dd=0.0001;dd<0.01;dd=dd*10){
+  
+  
+  
+  for(double dd=0.000001;dd<0.0001;dd=dd*10){
+    d=dd;
+    for (int i = 1; i<=1501;i+=10){
+      T = i;
+      for (double j = 0. ; j<=50. ; j+=1){
+        ainit = j;
+        Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        lilou.hugeCycle();//str);
+      }
+    } 
+  }
+  
+  
+  //~ for(double dd=0.0001;dd<0.01;dd=dd*10){
     //~ d=dd;
     //~ for (int i = 1; i<=1501;i+=10){
       //~ T = i;
