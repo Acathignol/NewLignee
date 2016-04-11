@@ -61,7 +61,7 @@ ainit<-Table$V1
 T_<-Table$V2
 results<-Table$V3
 
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
+plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1000,1301), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 #===============================================================================================

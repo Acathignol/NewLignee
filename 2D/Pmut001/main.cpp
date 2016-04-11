@@ -49,13 +49,36 @@ int main(int argc, char* argv[]) {
   double rab = atof(argv[12]);
   double rbc = atof(argv[13]);
   
+  //~ for (int x = 1 ; x<=10; x++){
+    //~ for (int i = 700; i<=1010;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=10. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ } 
   
-  for (int i = 521; i<=531;i+=10){
-    T = i;
-    for (double j = 0. ; j<=50. ; j+=1){
-      ainit = j;
-      Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-      lilou.hugeCycle();//str);
+  //~ for (int x = 1 ; x<=5; x++){
+    //~ for (int i = 1000; i<=1250;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ } 
+  
+  for (int x = 6 ; x<=10; x++){
+    for (int i = 1000; i<=1250;i+=10){
+      T = i;
+      for (double j = 0. ; j<=50. ; j+=1){
+        ainit = j;
+        Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        lilou.hugeCycle();//str);
+      }
     } 
   } 
   

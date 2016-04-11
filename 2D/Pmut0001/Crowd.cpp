@@ -174,7 +174,7 @@ void Crowd::writeResult(std::string str, double ainit, int T){
     }
   }
   
-  std::string str2=std::to_string(ainit)+" "+std::to_string(T)+" "+std::to_string(Dd)+" ";
+  std::string str2=std::to_string(ainit)+" "+std::to_string(T)+" ";
   if (countA>>0 and countB>>0){str2=str2+"2";}
   else if (countA>>0 and countB==0){str2=str2+"1";}
   else {str2=str2+"0";}
