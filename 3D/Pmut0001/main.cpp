@@ -99,6 +99,74 @@ int main(int argc, char* argv[]) {
       //~ }
     //~ } 
   //~ } 
+  
+  //~ for(double dd=0.00001;dd<=0.001;dd=dd*100){
+    //~ d=dd;
+    //~ for (int i = 471; i<=1501;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ }   
+  
+  //~ for(double dd=0.000005;dd<=0.005;dd=dd*10){
+    //~ d=dd;
+    //~ for (int i = 1; i<=301;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ } 
+  //~ for(double dd=0.000005;dd<=0.005;dd=dd*10){
+    //~ d=dd;
+    //~ for (int i = 311; i<=611;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ } 
+  //~ for(double dd=0.000005;dd<=0.005;dd=dd*10){
+    //~ d=dd;
+    //~ for (int i = 621; i<=921;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ } 
+  //~ for(double dd=0.000005;dd<=0.005;dd=dd*10){
+    //~ d=dd;
+    //~ for (int i = 931; i<=1231;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ } 
+  //~ for(double dd=0.000005;dd<=0.005;dd=dd*10){
+    //~ d=dd;
+    //~ for (int i = 1241; i<=1501;i+=10){
+      //~ T = i;
+      //~ for (double j = 0. ; j<=50. ; j+=1){
+        //~ ainit = j;
+        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        //~ lilou.hugeCycle();//str);
+      //~ }
+    //~ } 
+  //~ } 
 
   
   //DONE ______ METTRE NOMBRE TOT CELLS PUIS METTRE RANDOM  => PILE POIL 50%

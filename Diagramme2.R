@@ -3,7 +3,7 @@
 #============================================= 3D ==============================================
 #===============================================================================================
 
-#============================================  0.00  ===========================================
+#============================================  0.00  ===========================================  ok
 
 
 #Pmut=0.001 
@@ -32,95 +32,7 @@ plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), 
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
-#============================================  0.0000000001  ===================================
-
-
-#Pmut=0.001 
-Pmut=0.001
-D=0.0000000001
-Table<-read.table("/home/acathignol/Lignee/3D/Pmut0001/results.txt")
-
-ainit<-Table$V1[Table$V3 == 0.0000000001]
-T_<-Table$V2[Table$V3 == 0.0000000001]
-results<-Table$V4[Table$V3 == 0.0000000001]
-
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(100,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
-legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
-
-
-#Pmut=0.01 
-Pmut=0.01
-D=0.0000000001
-Table<-read.table("/home/acathignol/Lignee/3D/Pmut001/results.txt")
-
-ainit<-Table$V1[Table$V3 == 0.0000000001]
-T_<-Table$V2[Table$V3 == 0.0000000001]
-results<-Table$V4[Table$V3 == 0.0000000001]
-
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
-legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
-
-#============================================  0.000000001  ====================================
-
-
-#Pmut=0.001 
-Pmut=0.001
-D=0.000000001
-Table<-read.table("/home/acathignol/Lignee/3D/Pmut0001/results.txt")
-
-ainit<-Table$V1[Table$V3 == 0.000000001]
-T_<-Table$V2[Table$V3 == 0.000000001]
-results<-Table$V4[Table$V3 == 0.000000001]
-
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(100,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
-legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
-
-
-#Pmut=0.01 
-Pmut=0.01
-D=0.000000001
-Table<-read.table("/home/acathignol/Lignee/3D/Pmut001/results.txt")
-
-ainit<-Table$V1[Table$V3 == 0.000000001]
-T_<-Table$V2[Table$V3 == 0.000000001]
-results<-Table$V4[Table$V3 == 0.000000001]
-
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
-legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
-
-
-#============================================  0.00000001  =====================================
-
-
-#Pmut=0.001 
-Pmut=0.001
-D=0.00000001
-Table<-read.table("/home/acathignol/Lignee/3D/Pmut0001/results.txt")
-
-ainit<-Table$V1[Table$V3 == 0.00000001]
-T_<-Table$V2[Table$V3 == 0.00000001]
-results<-Table$V4[Table$V3 == 0.00000001]
-
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(100,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
-legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
-
-
-#Pmut=0.01 
-Pmut=0.01
-D=0.00000001
-Table<-read.table("/home/acathignol/Lignee/3D/Pmut001/results.txt")
-
-ainit<-Table$V1[Table$V3 == 0.00000001]
-T_<-Table$V2[Table$V3 == 0.00000001]
-results<-Table$V4[Table$V3 == 0.00000001]
-
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
-legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
-
-
-#============================================  0.0000001  ======================================
-
-
+#============================================  0.0000001  ====================================== PAS FAIT ? OU 0 ?
 
 #Pmut=0.001 
 Pmut=0.001
@@ -149,8 +61,7 @@ legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,1
 
 
 
-#============================================  0.000001  =======================================
-
+#============================================  0.000001  ======================================= P0001 ok P001 PAS FAIT
 
 
 #Pmut=0.001 
@@ -166,7 +77,7 @@ plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), 
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
-#Pmut=0.01 
+#Pmut=0.01                                  
 Pmut=0.01
 D=0.000001
 Table<-read.table("/home/acathignol/Lignee/3D/Pmut001/results.txt")
@@ -180,7 +91,7 @@ legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,1
 
 
 
-#============================================  0.00001  ========================================
+#============================================  0.00001  ======================================== P0001Pas FINIT P001 PAS FAIT
 
 
 #Pmut=0.001 
@@ -192,7 +103,7 @@ ainit<-Table$V1[Table$V3 == 0.00001]
 T_<-Table$V2[Table$V3 == 0.00001]
 results<-Table$V4[Table$V3 == 0.00001]
 
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(100,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
+plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
@@ -210,7 +121,7 @@ legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,1
 
 
 
-#============================================  0.0001  =========================================
+#============================================  0.0001  ========================================= P0001 ok P001 PAS FAIT
 
 
 #Pmut=0.001 
@@ -239,7 +150,7 @@ plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), 
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
-#============================================  0.001  ==========================================
+#============================================  0.001  ========================================== P0001 Pas FINIT P001 PAS FAIT
 
 
 #Pmut=0.001 
@@ -251,7 +162,7 @@ ainit<-Table$V1[Table$V3 == 0.001]
 T_<-Table$V2[Table$V3 == 0.001]
 results<-Table$V4[Table$V3 == 0.001]
 
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(100,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
+plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
@@ -267,7 +178,36 @@ results<-Table$V4[Table$V3 == 0.001]
 plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
-#============================================  0.01  ===========================================
+
+#============================================  0.005  ========================================== PAS FAIT
+
+
+#Pmut=0.001 
+Pmut=0.001
+D=0.005 
+Table<-read.table("/home/acathignol/Lignee/3D/Pmut0001/results.txt")
+
+ainit<-Table$V1[Table$V3 == 0.005]
+T_<-Table$V2[Table$V3 == 0.005]
+results<-Table$V4[Table$V3 == 0.005]
+
+plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
+legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
+
+
+#Pmut=0.01 
+Pmut=0.01
+D=0.005 
+Table<-read.table("/home/acathignol/Lignee/3D/Pmut001/results.txt")
+
+ainit<-Table$V1[Table$V3 == 0.005]
+T_<-Table$V2[Table$V3 == 0.005]
+results<-Table$V4[Table$V3 == 0.005]
+
+plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
+legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
+
+#============================================  0.01  =========================================== P0001 ok P001 Pas Finit
 
 
 #Pmut=0.001 
@@ -297,17 +237,17 @@ plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), 
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
-#============================================  0.02  ===========================================
+#============================================  0.05  =========================================== P0001 ok P001 PasFinit
 
 
 #Pmut=0.001 
 Pmut=0.001
-D=0.02 
+D=0.05
 Table<-read.table("/home/acathignol/Lignee/3D/Pmut0001/results.txt")
 
-ainit<-Table$V1[Table$V3 == 0.02]
-T_<-Table$V2[Table$V3 == 0.02]
-results<-Table$V4[Table$V3 == 0.02]
+ainit<-Table$V1[Table$V3 == 0.05]
+T_<-Table$V2[Table$V3 == 0.05]
+results<-Table$V4[Table$V3 == 0.05]
 
 plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
@@ -316,41 +256,15 @@ legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,1
 
 #Pmut=0.01 
 Pmut=0.01
-D=0.02 
+D=0.05
 Table<-read.table("/home/acathignol/Lignee/3D/Pmut001/results.txt")
 
-ainit<-Table$V1[Table$V3 == 0.02]
-T_<-Table$V2[Table$V3 == 0.02]
-results<-Table$V4[Table$V3 == 0.02]
+ainit<-Table$V1[Table$V3 == 0.05]
+T_<-Table$V2[Table$V3 == 0.05]
+results<-Table$V4[Table$V3 == 0.05]
 
 plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
 legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
 
 
-#============================================  0.10  ===========================================
-
-#Pmut=0.001 
-Pmut=0.001
-D=0.1 
-Table<-read.table("/home/acathignol/Lignee/3D/Pmut0001/results.txt")
-
-ainit<-Table$V1[Table$V3 == 0.1]
-T_<-Table$V2[Table$V3 == 0.1]
-results<-Table$V4[Table$V3 == 0.1]
-
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
-legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
-
-
-
-#Pmut=0.01 
-Pmut=0.01
-D=0.1 
-Table<-read.table("/home/acathignol/Lignee/3D/Pmut001/results.txt")
-
-ainit<-Table$V1[Table$V3 == 0.1]
-T_<-Table$V2[Table$V3 == 0.1]
-results<-Table$V4[Table$V3 == 0.1]
-
-plot(T_,ainit,col=results+2, main=c("Diagramme de phase (Pmut puis D)",Pmut,D), pch=19, xlim=c(1,1501), xlab="Temps avant renouvellement", ylab="[Glucose] initiale")
-legend(x=50,y=50,legend=c("Exclusion","Cohabitation","Extinction"),pch=c(19,19,19),col=c(3,4,2))
+#============================================  0.10  =========================================== ok
