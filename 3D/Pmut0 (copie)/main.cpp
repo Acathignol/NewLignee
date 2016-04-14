@@ -215,17 +215,18 @@ int main(int argc, char* argv[]) {
     //~ } 
   //~ }
   
-  
-  for (double dd = 0.00001 ; dd <= 0.00001 ; dd=dd*10){
+  for (int x=1 ; x<=10 ; x++){
+  for (double dd = 0.0000001 ; dd <= 0.0000001 ; dd=dd*10){
     d=dd;        
-    for (int i = 501; i<=1101;i+=10){
+    for (int i = 730; i<=800;i+=1){
       T = i;
-      for (double j = 0. ; j<=50. ; j+=1){
+      for (double j = 6. ; j<=15. ; j+=1){
         ainit = j;
         Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
         lilou.hugeCycle();//str);
       }
     } 
+  }
   }
   
   

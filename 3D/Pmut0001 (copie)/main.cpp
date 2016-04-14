@@ -51,7 +51,7 @@ int main(int argc, char* argv[]) {
 
 
   
-  for(double dd=0.0000001;dd<=0.0000001;dd=dd*10){
+  for(double dd=0.0000005;dd<=0.0000005;dd=dd*10){
     d=dd;
     for (int i = 1; i<=1501;i+=10){
       T = i;
