@@ -168,6 +168,18 @@ int main(int argc, char* argv[]) {
     //~ } 
   //~ } 
 
+  for(int x=1; x<=2;x++){
+    d=0.05;
+    for (int i = 1; i<=1501;i+=5){
+      T = i;
+      for (double j = 0. ; j<=50. ; j+=1){
+        ainit = j;
+        Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+        lilou.hugeCycle();//str);
+      }
+    } 
+    cout<<"Pmut 0.001, d=0.05 , every 5 T"<<endl;
+  } 
   
   //DONE ______ METTRE NOMBRE TOT CELLS PUIS METTRE RANDOM  => PILE POIL 50%
   //DONE ______ ATTENTION LES REPRODUITES SONT CELLES MORTES A T-1 

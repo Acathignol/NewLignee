@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) {
 
   
 //~ 
-  //~ for (int x = 1 ; x <= 8 ; x++){
+  //~ for (int x = 1 ; x <= 3 ; x++){
     //~ for (double dd = 0.000005 ; dd <= 0.000005 ; dd=dd*10){
       //~ d=dd;        
       //~ for (int i = 323 ; i<=353;i+=1){
@@ -68,19 +68,37 @@ int main(int argc, char* argv[]) {
   
   
 
-  for (int x = 1 ; x <= 5 ; x++){
-    for (double dd = 0.0005 ; dd <= 0.0005 ; dd=dd*10){
+  //~ for (int x = 1 ; x <= 5 ; x++){
+    //~ for (double dd = 0.0005 ; dd <= 0.0005 ; dd=dd*10){
+      //~ d=dd;        
+      //~ for (int i = 113 ; i<=157;i+=1){
+        //~ T = i;
+        //~ for (double j = 0. ; j<=50. ; j+=1){
+          //~ ainit = j;
+          //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
+          //~ lilou.hugeCycle();//str);
+        //~ }
+      //~ }
+    //~ }
+  //~ }
+  
+
+
+  for (int x = 1 ; x <= 5 ; x++){                               
+    for (double dd = 0.0005 ; dd <= 0.0005 ; dd=dd*10){ 
       d=dd;        
-      for (int i = 113 ; i<=157;i+=1){
+      for (int i =904  ; i<=1004;i+=1){ 
         T = i;
-        for (double j = 0. ; j<=50. ; j+=1){
+        for (double j = 46. ; j<=50. ; j+=1){
           ainit = j;
           Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
           lilou.hugeCycle();//str);
         }
       }
     }
-  }
+    cout<<"Pmut0 d=0.0005 [904-1004] [46:50]"<<endl;
+  } //1004 -1501       each 100,5
+  
   
   /**
   //~ for (double dd = 0.0000 ; dd <= 0.09 ; dd=dd+0.01){PUT THE TRANSITION HERE

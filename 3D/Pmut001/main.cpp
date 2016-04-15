@@ -148,9 +148,9 @@ int main(int argc, char* argv[]) {
     //~ } 
   //~ }
   
-  
-  //~ for(double dd=0.0001;dd<0.01;dd=dd*10){
-    //~ d=dd;
+  //~ 
+  //~ for(int x=1; x<=2;x++){
+    //~ d=0;
     //~ for (int i = 1; i<=1501;i+=10){
       //~ T = i;
       //~ for (double j = 0. ; j<=50. ; j+=1){
@@ -159,6 +159,7 @@ int main(int argc, char* argv[]) {
         //~ lilou.hugeCycle();//str);
       //~ }
     //~ } 
+    //~ cout<<"Pmut 0.01, d=0 , every 10 T"<<endl;
   //~ } 
 
   

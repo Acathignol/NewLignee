@@ -49,184 +49,35 @@ int main(int argc, char* argv[]) {
   double rab = atof(argv[12]);
   double rbc = atof(argv[13]);
   
-  //~ for(double dd=0.0000005; dd<0.00005;dd=dd*10){
-    //~ d=dd;
-    //~ for (int i = 1; i<=1501;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ }
-  
-  
-  //~ for(double dd=0.00005;dd<0.005;dd=dd*10){
-    //~ d=dd;
-    //~ for (int i = 1; i<=1501;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ }
-  
-  
-  //~ for(double dd=0.005;dd<=0.05;dd=dd*10){
-    //~ d=dd;
-    //~ for (int i = 1; i<=1501;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ } 
-  
-  //~ double dd = 0;
-  //~ d=dd;        
-  //~ for (int i = 1; i<=201;i+=10){
-    //~ T = i;
-    //~ for (double j = 0. ; j<=50. ; j+=1){
-      //~ ainit = j;
-      //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-      //~ lilou.hugeCycle();//str);
-    //~ }
-  //~ } 
-  
-  //~ double dd = 0.0000001;
-  //~ d=dd;        
-  //~ for (int i = 151; i<=151;i+=10){
-    //~ T = i;
-    //~ for (double j = 45. ; j<=50. ; j+=1){
-      //~ ainit = j;
-      //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-      //~ lilou.hugeCycle();//str);
-    //~ }
-  //~ } 
-  //~ cout<<"Finit simul ;)"<<endl;
-  //~ 
-  //~ double ddd = 0.1;
-  //~ d=ddd;        
-  //~ for (int i = 181; i<=201;i+=10){
-    //~ T = i;
-    //~ for (double j = 0. ; j<=50. ; j+=1){
-      //~ ainit = j;
-      //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-      //~ lilou.hugeCycle();//str);
-    //~ }
-  //~ } 
-  //~ cout<<"Finit simul ;)"<<endl;
-  //~ 
-//~ 
-  //~ 
-  //~ for (double dd = 0.000001 ; dd <= 0.1 ; dd=dd*10){
-    //~ d=dd;        
-    //~ for (int i = 1111; i<=1501;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ }
-  //~ cout<<"Finit simul ;)"<<endl;
-  //~ 
-  //~ 
-  //~ for (double dd = 0.000001 ; dd <= 0.1 ; dd=dd*10){
-    //~ d=dd;        
-    //~ for (int i = 211; i<=501;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ }
 
-
-  //~ for (double dd = 0.000001 ; dd <= 0.1 ; dd=dd*10){
-    //~ d=dd;        
-    //~ for (int i = 1; i<=201;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ }
-//~ 
-  //~ for (double dd = 0.000001 ; dd <= 0.1 ; dd=dd*10){
-    //~ d=dd;        
-    //~ for (int i = 511; i<=811;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ }
-//~ 
-  //~ for (double dd = 0.000001 ; dd <= 0.1 ; dd=dd*10){
-    //~ d=dd;        
-    //~ for (int i = 811; i<=1101;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
-  //~ }
   
-  
-  //~ 
-  //~ 
-  //~ for (double dd = 0.000001 ; dd <= 0.000001 ; dd=dd*10){
+  //~ for (int x=1 ; x<=10 ; x++){ TOOOOOOOOOOOOO DOOOOOOOOO
+  //~ for (double dd = 0.0000005 ; dd <= 0.0000005 ; dd=dd*10){
     //~ d=dd;        
-    //~ for (int i = 821; i<=1201;i+=10){
+    //~ for (int i = 536; i<=546;i+=1){
       //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
+      //~ for (double j = 0. ; j<=10. ; j+=1){
         //~ ainit = j;
         //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
         //~ lilou.hugeCycle();//str);
       //~ }
     //~ } 
   //~ }
-  
-  //~ 
-  //~ for (double dd = 0.00001 ; dd <= 0.00001 ; dd=dd*10){
-    //~ d=dd;        
-    //~ for (int i = 1; i<=201;i+=10){
-      //~ T = i;
-      //~ for (double j = 0. ; j<=50. ; j+=1){
-        //~ ainit = j;
-        //~ Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
-        //~ lilou.hugeCycle();//str);
-      //~ }
-    //~ } 
+  //~ cout<<"Finit 5e-07 [536-546], for a[0:10]"<<endl;
   //~ }
-  
-  for (int x=1 ; x<=10 ; x++){
-  for (double dd = 0.0000001 ; dd <= 0.0000001 ; dd=dd*10){
+  for (int x=1 ; x<=3 ; x++){
+  for (double dd = 0.0000005 ; dd <= 0.0000005 ; dd=dd*10){
     d=dd;        
-    for (int i = 730; i<=800;i+=1){
+    for (int i = 670; i<=800;i+=1){
       T = i;
-      for (double j = 6. ; j<=15. ; j+=1){
+      for (double j = 0. ; j<=5. ; j+=1){
         ainit = j;
         Life lilou = Life(T, simul, ainit, width, length, d, pmut, pdeath, wmin, raa, rbb, rab, rbc);
         lilou.hugeCycle();//str);
       }
     } 
   }
+  cout<<"Finit 5e-07 [670-800], for a[0:5]"<<endl;
   }
   
   
